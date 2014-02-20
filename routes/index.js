@@ -8,3 +8,7 @@ exports.view = function(req, res){
 exports.register = function(req, res){
 	res.render('registration');
 };
+
+exports.homepage = function(req, res){
+	res.render('home');
+};
