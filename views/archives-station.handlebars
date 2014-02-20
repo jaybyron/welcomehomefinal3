@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Feb 07 2014 01:04:01 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Feb 14 2014 18:34:36 GMT+0000 (UTC) -->
 <html data-wf-site="52f365c25d8eed2b6b000a8d">
 <head>
   <meta charset="utf-8">
-  <title>WelcomeHome - Payment</title>
+  <title>WelcomeHome - Archives Station</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -13,7 +13,7 @@
   <script>
     WebFont.load({
       google: {
-        families: ["Bitter:400,700"]
+        families: ["Bitter:400,700","Cabin Sketch:regular,700","Sacramento:regular"]
       }
     });
   </script>
@@ -24,13 +24,17 @@
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
 </head>
 <body>
-  <div class="w-container">
-    <div class="testing"></div>
-    <img class="registration" src="images/registration.jpg" alt="52f38d0fba5496e141000df1_registration.jpg">
-  </div>
-  <div class="w-container"></div>
-  <div class="text">This is the payment page. under construction.</div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.modal-link').click(function() {
+        $('.modal-background').fadeIn();
+      });
+      $('.close-modal').click(function() {
+        $('.modal-background').fadeOut();
+      });
+    });
+  </script>
 </body>
 </html>

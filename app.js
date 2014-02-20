@@ -36,8 +36,20 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-app.get('/registration', index.register);
-app.get('/home', index.homepage)
+app.get('/registration', index.registrationpage);
+app.get('/home', index.homepage);
+app.get('/pay', index.paypage);
+app.get('/whiteboard', index.whiteboardpage);
+app.get('/archives-station', index.archivepage);
+app.get('/charge-station', index.chargepage);
+app.get('/chat', index.chatpage);
+app.get('/chatbyron', index.chatbyronpage);
+app.get('/chatr', index.chatrpage);
+app.get('/chatrenew', index.chatrenewpage);
+app.get('/home2', index.home2page);
+app.get('/homerenew', index.homerenewpage);
+app.get('/paystation', index.paystationpage);
+app.get('/register', index.registerpage);
 // Example route
 // app.get('/users', user.list);
 
