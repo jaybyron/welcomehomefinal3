@@ -1,0 +1,831 @@
+body {
+  background-color: #d74b4b;
+  background-image: url('../images/Melamine-wood-001.png');
+  box-shadow: black 2px 2px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  display: block;
+  margin: -114px auto 10px;
+  padding-top: 0px;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: black 4px 4px 6px;
+}
+h2 {
+  margin: 10px 0px;
+  font-family: Bitter, serif;
+  font-size: 71px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  margin: 10px 0px;
+  background-color: rgba(220, 221, 216, 0.34);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: block;
+  margin: -123px auto 3px;
+  padding: 6px 15px 15px;
+  border: 2px solid #354b5e;
+  border-radius: 7px;
+  background-color: #d74b4b;
+  box-shadow: black 0px 0px 6px -1px;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: black 1px 1px 0px;
+}
+.sign-in-section {
+  margin-top: 0px;
+  padding-top: 35px;
+  border: 4px solid #354b5e;
+  border-radius: 4px;
+  background-color: #354b5e;
+}
+.sign-in-label {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 23px;
+  margin-left: auto;
+  font-family: Bitter, serif;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: black 1px 1px 6px;
+}
+.submit-button {
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 118px;
+  padding-left: 118px;
+  border: 1px solid #354b5e;
+  border-radius: 7px;
+  background-color: #d74b4b;
+  box-shadow: black 0px 0px 3px 0px;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  text-shadow: black 1px 1px 0px;
+}
+.title {
+  margin-top: 9px;
+  margin-bottom: 6px;
+  padding-top: 0px;
+  font-family:'Cabin Sketch', sans-serif;
+  color: black;
+  font-size: 129px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.bg {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 338px;
+  padding-bottom: 0px;
+  background-image: url('../images/windows.jpg');
+  background-position: 0% 52%;
+  background-size: cover;
+}
+.register-section {
+  margin-top: -14px;
+  margin-bottom: -64px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #354b5e;
+}
+.register-container {
+  padding-top: 134px;
+  background-color: #354b5e;
+}
+.top-panel {
+  margin-top: -1px;
+  padding-top: 47px;
+  padding-bottom: 7px;
+  background-color: #354b5e;
+}
+.registration {
+  display: block;
+  height: 79px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px 200px 0px;
+}
+.text {
+  font-family: Bitter, serif;
+  font-size: 35px;
+  line-height: 39px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: black 1px 1px 2px;
+}
+.facebook {
+  padding-top: 9px;
+  text-align: center;
+}
+.welcome {
+  font-family: Bitter, serif;
+  font-size: 45px;
+  text-shadow: black 1px 1px 6px;
+}
+.user {
+  font-family: Bitter, serif;
+  font-size: 47px;
+  text-shadow: black 1px 1px 6px;
+}
+.homeicon {
+  margin-top: 15px;
+}
+.login {
+  margin: 0px;
+  padding: 26px 25px 26px 26px;
+}
+.field-label {
+  margin-top: 64px;
+  padding-bottom: 8px;
+  font-family: Sacramento, sans-serif;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+}
+.login-button {
+  display: block;
+  min-width: 49px;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: #030202 7px 7px 9px -2px, black 1px 1px 3px 0px;
+  font-family: Sacramento, sans-serif;
+  font-size: 28px;
+}
+.loginheader {
+  margin-top: 199px;
+}
+.registration-button {
+  display: block;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Sacramento, sans-serif;
+  font-size: 25px;
+}
+.registration-block {
+  padding-left: 56px;
+  background-color: black;
+}
+.registration-text {
+  font-family: Sacramento, sans-serif;
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  list-style-type: disc;
+}
+.registration-link {
+  margin-right: 13px;
+  margin-left: 371px;
+  padding: 11px 11px 11px 0px;
+  float: none;
+  background-color: black;
+  box-shadow: black 1px 1px 3px 0px, black 1px 1px 3px 0px;
+  text-decoration: none;
+}
+.whiteboard {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 138px;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media (max-width: 991px) {
+  body {
+    margin-top: -33px;
+  }
+  h1 {
+    height: 88px;
+    margin-top: -159px;
+    box-shadow: none;
+    line-height: 73px;
+  }
+  h2 {
+    line-height: 55px;
+  }
+  .title {
+    font-size: 98px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    box-shadow: none;
+  }
+  .title {
+    font-size: 73px;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    margin-top: 0px;
+    margin-right: 7px;
+    background-image: url('../images/Melamine-wood-001.png');
+    line-height: 20px;
+  }
+  h1 {
+    margin-top: -160px;
+    box-shadow: none;
+    font-family: Bitter, serif;
+    font-size: 65px;
+    line-height: 56px;
+    text-shadow: black 4px 4px 4px;
+  }
+  h2 {
+    margin-top: -14px;
+    margin-bottom: -7px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 0px;
+    font-family:'Cabin Sketch', sans-serif;
+    color: #030303;
+    font-size: 43px;
+    line-height: 27px;
+    text-align: center;
+    text-shadow: black 1px 1px 6px;
+  }
+  h3 {
+    margin-top: -65px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    font-family: Sacramento, sans-serif;
+    color: #500000;
+    font-size: 30px;
+    text-shadow: black 1px 1px 2px;
+  }
+  h4 {
+    margin-top: 57px;
+    margin-left: -53px;
+    color: #500000;
+    text-shadow: black 1px 1px 6px;
+  }
+  h5 {
+    position: fixed;
+  }
+  p {
+    position: static;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin-top: 4px;
+    margin-left: -70px;
+    float: none;
+    clear: none;
+    color: white;
+    font-size: 18px;
+  }
+  .button {
+    margin: -1px -9px -9px;
+    padding: 10px 0px;
+    border-radius: 0px;
+    background-color: #500000;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .sign-in-section {
+    margin-top: -1px;
+  }
+  .sign-in-label {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .title {
+    display: block;
+    margin: 0px auto -11px;
+    padding-top: 0px;
+    font-family:'Cabin Sketch', sans-serif;
+    color: black;
+    font-size: 64px;
+    line-height: 49px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+  }
+  .bg {
+    padding-top: 238px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .register-section {
+    margin-bottom: -31px;
+  }
+  .register-container {
+    padding-top: 146px;
+    padding-bottom: 0px;
+  }
+  .top-panel {
+    margin-bottom: -1px;
+    padding-bottom: 0px;
+    background-color: transparent;
+  }
+  .text {
+    font-family: Bitter, serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: black 1px 1px 2px;
+  }
+  .welcome {
+    margin-top: -2px;
+    margin-bottom: -9px;
+    padding-top: 21px;
+    padding-bottom: 0px;
+    font-size: 19px;
+    text-align: center;
+  }
+  .user {
+    margin-top: 19px;
+    font-size: 27px;
+  }
+  .homeicon {
+    margin-top: -1px;
+  }
+  .icon-block {
+    margin-top: 15px;
+  }
+  .profile {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+  ._2nd-level-home {
+    margin-top: -1px;
+    margin-bottom: 76px;
+  }
+  .navbar {
+    top: 0px;
+    margin-top: 100px;
+    margin-right: -8px;
+    background-color: #500000;
+    box-shadow: black 0px 0px 13px 0px;
+  }
+  .testing {
+    margin-top: 54px;
+  }
+  .test {
+    margin-top: 57px;
+  }
+  .important {
+    margin-top: 12px;
+    background-color: rgba(3, 2, 2, 0.2);
+    font-family: Bitter, serif;
+    color: #500000;
+    font-weight: 700;
+  }
+  .residents {
+    margin-top: -1px;
+  }
+  .join-an-apartment {
+    width: 330px;
+    margin-bottom: 82px;
+  }
+  .header {
+    margin-bottom: 198px;
+    padding-top: 0px;
+  }
+  .space-between-buttons {
+    margin: 0px;
+    padding: 0px;
+  }
+  .button-container {
+    padding-top: 0px;
+  }
+  .payment {
+    margin-top: 0px;
+  }
+  .selection {
+    margin-right: 258px;
+  }
+  .paymentpage {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .remember-me {
+    margin-left: 204px;
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+  }
+  .resident-1 {
+    margin-top: 75px;
+  }
+  .login {
+    margin-top: 0px;
+    background-image: url('../images/login%20screen.jpg');
+    background-position: 50% 50%;
+  }
+  .usernamesubmit {
+    position: relative;
+    left: 126px;
+    top: -176px;
+    bottom: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin-right: 37px;
+    margin-bottom: -54px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    clear: none;
+  }
+  .usernameentry {
+    position: relative;
+    top: -71px;
+    height: 26px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .passwordentry {
+    position: relative;
+    left: 0px;
+    top: -10px;
+    right: -7px;
+    bottom: 0px;
+    height: 26px;
+    margin: 0px;
+    padding: 10px 90px 2px 12px;
+  }
+  .formuserandpass {
+    position: relative;
+    top: 247px;
+    margin-top: -53px;
+    margin-right: 59px;
+    margin-left: 59px;
+  }
+  .logintext {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Sacramento, sans-serif;
+    color: black;
+    font-size: 37px;
+    text-align: center;
+  }
+  .field-label {
+    margin-top: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Sacramento, sans-serif;
+    color: #470101;
+    font-size: 42px;
+    text-align: center;
+  }
+  .login-button {
+    display: block;
+    margin-top: 11px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12px;
+    border-radius: 13px;
+    box-shadow: black 3px 3px 11px -1px;
+    font-family: Sacramento, sans-serif;
+    font-size: 23px;
+  }
+  .loginheader {
+    margin-top: 94px;
+  }
+  .registration-link {
+    position: static;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+    box-shadow: black 11px 11px 33px -11px;
+    text-align: center;
+  }
+  .list {
+    margin-top: 0px;
+    color: black;
+  }
+  .list-text {
+    color: black;
+    list-style-type: disc;
+  }
+  .res {
+    background-color: rgba(3, 2, 2, 0.2);
+    font-family: Bitter, serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .important-date {
+    margin-top: 9px;
+    margin-bottom: 35px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    color: black;
+  }
+  .important-text {
+    margin-top: 7px;
+    margin-bottom: 13px;
+    margin-left: -90px;
+    padding-left: 0px;
+    color: black;
+  }
+  .nav {
+    margin-top: -1px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .resident-container {
+    margin-top: -39px;
+  }
+  .important-small {
+    color: #500000;
+    font-weight: 700;
+  }
+  .small-list {
+    color: #030000;
+  }
+  .homelink {
+    border: 0px solid black;
+    border-radius: 12px;
+  }
+  .whiteboard {
+    margin-top: 12px;
+  }
+  .heading {
+    margin-top: 13px;
+    font-family:'Cabin Sketch', sans-serif;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+  }
+  .navbar-whiteboard {
+    margin-top: -143px;
+    background-color: #500000;
+    color: #500000;
+  }
+  .navbar-home {
+    display: block;
+    margin-top: -144px;
+    margin-right: -8px;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #500000;
+  }
+  .head-text {
+    font-family:'Cabin Sketch', sans-serif;
+    color: #e3bf85;
+    font-size: 41px;
+    text-align: center;
+  }
+  .head-container {
+    margin-right: -8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #500000;
+  }
+  .modal-background {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+    display: none;
+    height: 100%;
+    margin-right: -1px;
+    padding-right: 212px;
+    padding-left: 81px;
+    background-color: rgba(0, 0, 0, 0.49);
+    color: rgba(0, 0, 0, 0.49);
+  }
+  .modal-window {
+    display: block;
+    width: 70%;
+    margin-top: 117px;
+    margin-right: auto;
+    margin-left: -43px;
+    padding: 2px 150px 39px 106px;
+    background-color: white;
+  }
+  .modal-imporant {
+    margin-top: 61px;
+    padding-top: 154px;
+    padding-right: 258px;
+    padding-bottom: 0px;
+    background-color: rgba(80, 0, 0, 0.90);
+  }
+  .modal-wrap-form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .for-modal {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .modal-text {
+    display: block;
+    margin-right: -32px;
+    margin-left: auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 33px;
+    text-align: center;
+  }
+  .close-modal {
+    margin-top: -3px;
+    margin-bottom: -1px;
+    margin-left: 113px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .modal-link {
+    color: #330e0e;
+    text-decoration: none;
+  }
+  .modal-container {
+    padding-left: 0px;
+  }
+  .modal-block {
+    margin-left: 6px;
+    padding-top: 84px;
+    padding-right: 131px;
+    padding-left: 0px;
+  }
+  .insert-modal {
+    margin-right: -19px;
+    margin-left: -20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: #500000;
+    font-size: 21px;
+    text-align: center;
+  }
+  .insertion {
+    margin-left: -94px;
+    padding-top: 86px;
+    padding-right: 163px;
+    padding-left: 69px;
+    font-size: 30px;
+  }
+  .chat-rows {
+    display: block;
+    margin-right: 28px;
+    margin-bottom: 1px;
+    margin-left: 122px;
+    padding-right: 0px;
+    padding-left: 0px;
+    float: none;
+    clear: none;
+    background-color: rgba(64, 61, 61, 0.49);
+  }
+  .chat {
+    margin-top: 13px;
+    padding-top: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(3, 0, 0, 0.49);
+  }
+  .chat-1 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding: 21px 0px 11px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.49);
+    border-radius: 6px;
+  }
+  .chat-container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .link1 {
+    display: block;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin-top: -72px;
+    margin-bottom: 0px;
+    margin-left: -162px;
+    padding: 0px 323px 0px 0px;
+    float: none;
+  }
+  .text1 {
+    margin-left: -83px;
+    font-size: 16px;
+  }
+  .image2 {
+    margin-top: 3px;
+    margin-left: -9px;
+  }
+  .link2 {
+    margin-top: -58px;
+    margin-left: -161px;
+    padding: 0px 321px 0px 0px;
+  }
+  .link3 {
+    margin-top: -76px;
+    margin-left: -159px;
+    padding: 0px 316px 0px 0px;
+  }
+  .image1 {
+    margin-top: 0px;
+    margin-left: -7px;
+  }
+  .modal2 {
+    position: fixed;
+    right: -120px;
+    margin-left: 3px;
+    padding-right: 317px;
+    font-size: 14px;
+  }
+  .modal2text {
+    position: static;
+    text-align: center;
+  }
+  .modal-2 {
+    margin-left: 4px;
+    padding-right: 316px;
+    font-size: 17px;
+    letter-spacing: 6px;
+    text-decoration: none;
+    text-indent: 0px;
+  }
+  .modaltext {
+    position: static;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin-top: 0px;
+    margin-right: 13px;
+    margin-left: -3px;
+    padding: 0px 0px 0px 119px;
+    direction: ltr;
+    color: white;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+  .row {
+    margin-top: 33px;
+  }
+  .navbar-chat {
+    margin-top: -1px;
+    margin-right: -8px;
+    background-color: #500000;
+    color: #500000;
+  }
+  .navbar-chatr {
+    margin-top: 0px;
+    margin-right: -8px;
+    background-color: #500000;
+  }
+}
