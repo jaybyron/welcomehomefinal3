@@ -60,3 +60,8 @@ exports.paystationpage = function(req, res){
 exports.registerpage = function(req, res){
 	res.render('register');
 };
+
+
+exports.homebootpage = function(req, res){
+	res.render('homeboot');
+};

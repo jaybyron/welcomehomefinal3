@@ -50,6 +50,7 @@ app.get('/home2', index.home2page);
 app.get('/homerenew', index.homerenewpage);
 app.get('/paystation', index.paystationpage);
 app.get('/register', index.registerpage);
+app.get('/homeboot', index.homebootpage);
 // Example route
 // app.get('/users', user.list);
 
