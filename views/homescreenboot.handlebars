@@ -8,11 +8,14 @@
     <meta name="author" content="">
     <title>
     </title>
+
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
     rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
   </head>
   
+  <!-- TEXT HEAD -->
+
   <body background="../images/Melamine-wood-001.png">
     <div id="wrap">
       <div class="container" id="head">
@@ -31,6 +34,23 @@
       <div id="footer">
       </div>
     </div>
+
+
+    <!-- Button trigger modal -->
+<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  Add Announcement
+</button>
+    <!-- ANNOUNCEMENT BAR -->
+
+    <br>
+    <div class="span3">
+    <p><b id='boldStuff2'></b> 
+    </p>
+    <p><b>Announcements</b></p>
+    <ul id="demo"></ul>
+    </div>
+
+    <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse"
     role="navigation" id="navbar">
       <div class="navbar-header">
@@ -53,14 +73,68 @@
         </ul>
       </div>
     </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Add Your Announcement</h4>
+      </div>
+      <div class="modal-body">
+          <input type="text" id="firstname">
+ 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <input type='button' class="btn-primary" onclick='changeText2()' value='Submit' />
+
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 
+
+
+
+  <!-- CSS -->
   <STYLE>
     h3{
     font-family: 'Cabin Sketch', cursive;
     font-size: 250%;
     }
 
+    .span3{
+      height: 100px !important;
+      overflow: scroll;
+      background: rgba(54, 25, 25, .4);
+    }
+
+}
+
   </STYLE>
+
+  <SCRIPT>
+
+  var list = document.getElementById('demo');
+
+  function changeText2() {
+    var firstname = document.getElementById('firstname').value;
+
+    <!-- THIS SHOWS THE INPUT -->
+    <!--document.getElementById('boldStuff2').innerHTML = firstname; -->
+    var entry = document.createElement('li');
+    entry.appendChild(document.createTextNode(firstname));
+    list.appendChild(entry);
+    $('#myModal').modal('hide') 
+    }
+
+
+
+  </SCRIPT>
+
+
 
 </html>

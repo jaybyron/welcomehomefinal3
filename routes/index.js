@@ -69,3 +69,8 @@ exports.homebootpage = function(req, res){
 exports.homescreenbootpage = function(req, res){
 	res.render('homescreenboot');
 };
+
+
+exports.modalpage = function(req, res){
+	res.render('modal');
+};
