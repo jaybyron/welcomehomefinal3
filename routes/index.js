@@ -65,3 +65,7 @@ exports.registerpage = function(req, res){
 exports.homebootpage = function(req, res){
 	res.render('homeboot');
 };
+
+exports.homescreenbootpage = function(req, res){
+	res.render('homescreenboot');
+};

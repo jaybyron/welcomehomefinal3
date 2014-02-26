@@ -51,6 +51,8 @@ app.get('/homerenew', index.homerenewpage);
 app.get('/paystation', index.paystationpage);
 app.get('/register', index.registerpage);
 app.get('/homeboot', index.homebootpage);
+app.get('/home', index.homebootpage);
+app.get('/homescreenboot', index.homescreenbootpage);
 // Example route
 // app.get('/users', user.list);
 
