@@ -11,6 +11,7 @@
 
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
     rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-lightbox">
     <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
   </head>
   
@@ -51,20 +52,31 @@
     </div>
 
         <div class="row"><br>
-      <div class="col-md4 col-md-4" style="display: block;">
+      <div class="col-md4 col-md-4" style="display: block;" id="row1">
         <img src="images/user1.jpg" id="img1"
         width="70" height="70">
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Byron Inocencio </b>
+         <b>Byron Inocencio      </b>
+         <!-- Button trigger modal -->
+          <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal2" id="modal2">
+            Info
+          </button>
+
       </div> <br>
-      <div class="col-md4 col-md-4" style="display: block;">
+      <div class="col-md4 col-md-4" style="display: block;" id="row1">
         <img src="images/lizzy.jpg" id="img1"
         width="70">
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Lizzy Cowan </b>
+         <b>Lizzy Cowan </b>
+        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal3" id="modal2">
+            Info
+          </button>
       </div> <br>
-      <div class="col-md-4">
+      <div class="col-md-4" id="row1">
         <img src="images/ryan.jpg"
         width="70" height="70" id="img1">
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b> Ryan Chan </b>
+        <b> Ryan Chan </b>
+        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal4" id="modal2">
+            Info
+          </button>
         <h3>
         </h3>
       </div>
@@ -82,7 +94,7 @@
       </div>
     </nav>
 
-<!-- Modal -->
+<!-- Modal  Announcements-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -104,13 +116,80 @@
 </div>
   </body>
 
+  <!-- Modal Row1 -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Byron Inocencio</h4>
+      </div>
+      <div class="modal-body">
+        <b>Phone Number</b>: <br>(111) 111-1111<br>
+        <b>Email:</b> <br>binocenc@ucsd.edu<br>
+        <b>Emergency Contact:</b> <br> (111) 111-1111<br>
+        <b>Schedule:</b></br> <a href="https://www.dropbox.com/s/4yztj7x91zyylnq/mysched.jpg">Schedule</a>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal Row2 -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Lizzy Cowan</h4>
+      </div>
+      <div class="modal-body">
+        <b>Phone Number</b>: <br>(222) 222-2222<br>
+        <b>Email:</b> <br>binocenc@ucsd.edu<br>
+        <b>Emergency Contact:</b> <br> (222) 222-2222<br>
+        <b>Schedule:</b></br> <a href="https://www.dropbox.com/s/4yztj7x91zyylnq/mysched.jpg">Schedule</a>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal Row3 -->
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Ryan Chan</h4>
+      </div>
+      <div class="modal-body">
+        <b>Phone Number</b>: <br>(222) 222-2222<br>
+        <b>Email:</b> <br>binocenc@ucsd.edu<br>
+        <b>Emergency Contact:</b> <br> (222) 222-2222<br>
+        <b>Schedule:</b></br> <a href="https://www.dropbox.com/s/4yztj7x91zyylnq/mysched.jpg">Schedule</a>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 
   <!-- CSS -->
   <STYLE>
     h3{
-    font-family: 'Cabin Sketch', cursive;
+    /*font-family: 'Cabin Sketch', cursive;*/
     font-size: 250%;
     }
 
@@ -128,6 +207,18 @@
       padding-bottom: 50px;
       overflow-x: hidden;
     }
+
+    #row1{
+
+           background: rgba(54, 25, 25, .3);
+
+    }
+
+    #modal2{
+      float:right;
+      vertical-align: middle;
+    }
+
 
 }
 
