@@ -38,7 +38,40 @@
     <body background="../images/Melamine-wood-001.png">
     <div class="container">
       <div class="container">
+          <div id="wrap">
         <h1>Chat</h1>
+        <div class="row"><br>
+      <div class="col-md4 col-md-4" style="display: block;" id="row1">
+        <img src="images/user1.jpg" id="img1"
+        width="70" height="70">
+         <b>Byron</b>
+         <!-- Button trigger modal -->
+          <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal2" id="modal2">
+            message
+          </button>
+
+      </div> <br>
+      <div class="col-md4 col-md-4" style="display: block;" id="row1">
+        <img src="images/lizzy.jpg" id="img1"
+        width="70">
+         <b>Lizzy</b>
+        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal3" id="modal2">
+            message
+          </button>
+      </div> <br>
+      <div class="col-md-4" id="row1">
+        <img src="images/ryan.jpg"
+        width="70" height="70" id="img1">
+        <b> Ryan</b>
+        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal4" id="modal2">
+            message
+          </button>
+        <h3>
+        </h3>
+      </div>
+      </div>
+  </div>
+    </div>
 
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse"
@@ -50,7 +83,7 @@
         <a class="navbar-brand" href="chat">Chat </a>
       </div>
     </nav>
-    </body>
+
 
     <STYLE>
     h1{
@@ -62,6 +95,14 @@
       height:500px;
     };
 
+    #modal2{
+      float:right;
+      vertical-align: middle;
+    }
+
+    #row1{
+        background: rgba(54, 25, 25, .3);
+    }
 
     </STYLE>
 </html>
