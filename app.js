@@ -39,7 +39,7 @@ app.get('/', index.view);
 app.get('/registration', index.registrationpage);
 app.get('/home', index.homepage);
 app.get('/pay', index.paypage);
-app.get('/whiteboard', index.whiteboardpage);
+app.get('/whiteboardboot', index.whiteboardpage);
 app.get('/archives-station', index.archivepage);
 app.get('/charge-station', index.chargepage);
 app.get('/chat', index.chatpage);

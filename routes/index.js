@@ -18,7 +18,7 @@ exports.paypage = function(req, res){
 };
 
 exports.whiteboardpage = function(req, res){
-	res.render('whiteboard');
+	res.render('whiteboardboot');
 };
 
 exports.archivepage = function(req, res){
