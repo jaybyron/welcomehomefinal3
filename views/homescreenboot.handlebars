@@ -74,7 +74,7 @@
         <img src="images/lizzy.jpg" id="img1"
         width="70">
          <b>Lizzy Cowan </b>
-        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal3" id="modal2">
+        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal3" id="modal3">
             Info
           </button>
       </div> <br>
@@ -82,7 +82,7 @@
         <img src="images/ryan.jpg"
         width="70" height="70" id="img1">
         <b> Ryan Chan </b>
-        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal4" id="modal2">
+        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal4" id="modal4">
             Info
           </button>
         <h3>
@@ -233,7 +233,7 @@
 
     }
 
-    #modal2{
+    #modal2,#modal3,#modal4{
       float:right;
       vertical-align: middle;
     }
@@ -260,8 +260,19 @@
 
   // Using jQuery Event API v1.3
 $('#modal2').on('click', function() {
-  ga('send', 'event', 'button', 'click', 'nav-buttons');
+  ga('send', 'event', 'button', 'click');
 });
+
+  // Using jQuery Event API v1.3
+$('#modal3').on('click', function() {
+  ga('send', 'event', 'button', 'click');
+});
+
+  // Using jQuery Event API v1.3
+$('#modal4').on('click', function() {
+  ga('send', 'event', 'button', 'click');
+});
+
 
 
 
