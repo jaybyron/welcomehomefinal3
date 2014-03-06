@@ -60,31 +60,25 @@
     </div>
 
         <div class="row"><br>
-      <div class="col-md4 col-md-4" style="display: block;" id="row1">
+      <div class="col-md4 col-md-4" style="display: block;" id="row1"  data-toggle="modal" data-target="#myModal2" id="modal2">
         <img src="images/user1.jpg" id="img1"
         width="70" height="70">
          <b>Byron Inocencio      </b>
          <!-- Button trigger modal -->
-          <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal2" id="modal2">
-            Info
-          </button>
+         
 
       </div> <br>
-      <div class="col-md4 col-md-4" style="display: block;" id="row1">
+      <div class="col-md4 col-md-4" style="display: block;" id="row1" data-toggle="modal" data-target="#myModal3" id="modal2">
         <img src="images/lizzy.jpg" id="img1"
         width="70">
          <b>Lizzy Cowan </b>
-        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal3" id="modal2">
-            Info
-          </button>
+
       </div> <br>
-      <div class="col-md-4" id="row1">
+      <div class="col-md-4" id="row1"  data-toggle="modal" data-target="#myModal4" id="modal2">
         <img src="images/ryan.jpg"
         width="70" height="70" id="img1">
         <b> Ryan Chan </b>
-        <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal4" id="modal2">
-            Info
-          </button>
+
         <h3>
         </h3>
       </div>
@@ -258,9 +252,9 @@
     $('#myModal').modal('hide') 
     }
 
-  // Using jQuery Event API v1.3
+    // Using jQuery Event API v1.3
 $('#modal2').on('click', function() {
-  ga('send', 'event', 'button', 'click', 'nav-buttons');
+  ga('send', 'event', 'button', 'click', );
 });
 
 

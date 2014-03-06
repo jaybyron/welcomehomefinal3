@@ -79,3 +79,7 @@ exports.modalpage = function(req, res){
 exports.paybootpage = function(req, res){
 	res.render('payboot');
 };
+
+exports.hsbootalt = function(req, res){
+	res.render('homescreenbootalt');
+};

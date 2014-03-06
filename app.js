@@ -55,6 +55,7 @@ app.get('/home', index.homebootpage);
 app.get('/homescreenboot', index.homescreenbootpage);
 app.get('/modal', index.modalpage)
 app.get('/payboot', index.paybootpage)
+app.get('/homescreenbootalt', index.hsbootalt)
 // Example route
 // app.get('/users', user.list);
 
